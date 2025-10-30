@@ -1,0 +1,22 @@
+React is a JavaScript library used for building user interfaces (UI), especially for single-page applications (SPAs). It was developed by Facebook to make web development faster, easier, and more efficient.
+React allows developers to create reusable components, which are independent, self-contained blocks of code that define how a part of the UI looks and behaves. For example, a button, navbar, or login form can each be a separate component.
+The main goal of React is to make web applications dynamic and interactive. It uses a powerful concept called the Virtual Document Object Model instead of reloading the whole page when something changes, React updates only the necessary parts of the screen, making applications faster and smoother.
+Working of React:
+When you write React code, you create components using JavaScript (JSX) — a syntax that looks like HTML but runs inside JavaScript.
+Each component has its own logic and UI, and React handles how these components appear on the screen.
+React uses state (for storing data that changes) and props (for passing data between components) to manage how data flows in the application.
+When the state changes — for example, when a user clicks a button — React automatically re-renders that part of the page without refreshing the whole site. This is what makes React apps feel so fast and responsive.
+Intsallation of React:
+Step-1: Install Node.js and npm.
+Step-2: Create a New React App.
+Step-3: Start the Development Server.
+Execution of React Programs:
+   1.JSX Compilation:
+     React code is written using JSX (JavaScript XML).
+     The tool Babel converts JSX into regular JavaScript that browsers can understand.
+   2.Bundling:
+     Webpack bundles all JavaScript, CSS, and images into optimized files.
+   3.Virtual DOM Update:
+     When you interact with your app (like clicking a button), React updates its Virtual DOM, compares it to the previous state, and efficiently changes only what’s needed on the real web page.
+   4.Rendering:
+    Finally, the updated UI is rendered in the browser — instantly and without reloading the entire page.
