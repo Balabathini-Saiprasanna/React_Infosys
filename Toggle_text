@@ -1,0 +1,15 @@
+import React, { useState } from "react";
+function ToggleText() {
+  const [show, setShow] = useState(true);
+  return (
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
+      <h1>Toggle Text</h1>
+      <button onClick={() => setShow(!show)}>
+        {show ? "Hide" : "Show"} Text
+      </button>
+      {show && <p>This is a simple toggle example!</p>}
+    </div>
+  );
+}
+
+export default ToggleText;
